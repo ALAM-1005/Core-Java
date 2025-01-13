@@ -12,7 +12,6 @@ public class ArrayListMethods {
 		
 		ArrayList a = new ArrayList();
 		
-		
 		// ineternally an arrays gets created of custom initial capacity
 		ArrayList b = new ArrayList(20);
 		
