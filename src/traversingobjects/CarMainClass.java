@@ -19,7 +19,10 @@ public class CarMainClass {
 		Iterator<Car> i = al.iterator();
 		
 		while(i.hasNext()) {
-			System.out.println(i.next());
+			System.out.println(i.next());  // direct printing the object
+
+			Car c = i.next();
+			System.out.println(c);// printing the refrence variable
 		}
 		
 
