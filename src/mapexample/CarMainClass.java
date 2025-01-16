@@ -18,6 +18,10 @@ public class CarMainClass {
 		lh.put(c1, 5000);
 		lh.put(c2, 5500);
 		lh.put(c3, 5200);
+
+		lh.put(new Car("Audi"), 5000);
+		lh.put(new Car("BMW"), 5500);
+		lh.put(new Car("Tayota"), 5200);
 		
 		Set<Car> keys = lh.keySet();
 		
