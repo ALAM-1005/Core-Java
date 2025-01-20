@@ -20,6 +20,7 @@ public class Test {
 			System.out.println(s.reversed());
 			break;
 		case 2:
+				System.out.println(s.sort());
 			break;
 		default:
 			break;
